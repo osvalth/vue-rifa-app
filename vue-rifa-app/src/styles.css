@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #app {
+    margin-top: 2em;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .alineacionContenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  input[type="number"] {
+    border: 0.1em solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    width: 5em
+  }
+  
+  .tamCheck{
+    -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari y Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  }
+  input[type="text"] {
+    border: 0.1em solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    width: 5em
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .espacioBTN{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  div[v-for] {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
